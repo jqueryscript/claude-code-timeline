@@ -70,14 +70,6 @@ A maintained reference to the public release history of [Claude Code](https://ww
 - **Expanded** means Anthropic widened an existing capability, added a supported surface, or added a material workflow control.
 - A model appears here only when it changed the practical Claude Code experience. For the complete model chronology, see the [Claude Timeline](https://www.scriptbyai.com/anthropic-claude-timeline/).
 
-## Repository contents
-
-| File | Purpose |
-| --- | --- |
-| [`README.md`](README.md) | A concise, GitHub-friendly version of the timeline. |
-| [`article.html`](article.html) | The full WordPress block HTML article. |
-| [`SEO.md`](SEO.md) | Search metadata, internal-link mapping, and update guidance. |
-
 ## Update policy
 
 This repository adds an event when an official Anthropic source documents a durable change to Claude Code capability, availability, supported surfaces, project configuration, automation, or model choice.
