@@ -2,12 +2,15 @@
 
 A concise, reverse-chronological record of the Claude Code releases and product changes that changed how developers use it. It focuses on major model choices, supported surfaces, configuration, automation, and availability milestones.
 
-**Last updated:** July 24, 2026
+**Last updated:** August 15, 2026
 
 ## 2026
 
 | Date | Milestone | What changed |
 | --- | --- | --- |
+| August 13 | Default subagent forking and GitLab workflows | Forked subagents inherited the current conversation and prompt cache by default, while non-teammate agents ran in the background. Named sessions gained direct `@` messaging, and GitLab support expanded across marketplaces and worktree merge-request flows. |
+| August 7 | Self-hosted environments and cross-session messaging | Team and Enterprise users could run web, mobile, and desktop sessions on their own machines or containers. Sessions on macOS and Linux also gained cross-device discovery and messaging, and plugins could install from SHA-256-pinned HTTPS archives. |
+| August 4 | Focus view and safer isolated work | VS Code gained Focus view. Linux and WSL sandboxes added credential-file masking, `/fork` sessions received their own worktrees, and background sessions gained clearer Git handoff rules. |
 | July 24 | Claude Opus 5 and workflow controls | Opus 5 became the default Opus model. Claude Code also added Dynamic workflow-size settings, the `DirectoryAdded` Hook, sandbox network allowlisting, and deeper nested-subagent delegation. |
 | July 10 | Auto Mode reaches general availability | Auto Mode moved from preview to general availability, subject to plan and provider limits. |
 | June 30 | Claude Sonnet 5 | A new Sonnet model arrived for coding, tool use, agents, and professional work. |
